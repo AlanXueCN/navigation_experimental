@@ -2,5 +2,6 @@
   <!-- <node pkg="stage_ros" type="stageros" name="stageros" args="$(find sbpl_lattice_planner)/worlds/new_world.world" respawn="false" > -->
   <node pkg="stage_ros" type="stageros" name="stageros" args="$(find sbpl_lattice_planner)/worlds/updated.world" respawn="false" >
     <param name="base_watchdog_timeout" value="0.2"/>
+        <!-- <remap from="base_scan" to="scan"/> -->
   </node>
 </launch>
